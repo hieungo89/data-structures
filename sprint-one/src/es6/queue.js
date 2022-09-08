@@ -1,7 +1,17 @@
 class Queue {
-  // Hey! Rewrite in the new style. Your code will wind up looking very similar,
-  // but try not not reference your old code in writing the new style.
   constructor() {
+    this.items = [];
   }
 
+  enqueue(value) {
+    this.items.push(value);
+  }
+
+  dequeue() {
+    return this.items.shift();
+  }
+
+  size() {
+    return this.items.length;
+  }
 }

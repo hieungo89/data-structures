@@ -28,14 +28,3 @@ var Stack = function() {
 
   return someInstance;
 };
-
-// var firstStack = Stack();
-// firstStack.push('2')
-// firstStack.push('3')
-// firstStack.pop()
-
-// firstStack.pop()
-// firstStack.push('1')
-
-// // firstStack.storage;
-// console.log(firstStack.storage)
